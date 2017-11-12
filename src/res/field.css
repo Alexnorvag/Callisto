@@ -1,0 +1,6 @@
+.text-field
+{
+    -fx-prompt-text-fill: #fff;
+    -fx-text-fill: #fff;
+    -fx-highlight-fill: #6fb98f;
+}
