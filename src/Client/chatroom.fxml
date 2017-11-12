@@ -15,7 +15,7 @@
    <children>
       <AnchorPane fx:id="anSent" layoutX="230.0" prefHeight="700.0" prefWidth="470.0" style="-fx-background-color: #07575B;">
          <children>
-            <JFXTextArea fx:id="taAllMessage" editable="false" layoutX="20.0" layoutY="69.0" prefHeight="535.0" prefWidth="430.0" style="-fx-background-color: #fff;" />
+            <JFXTextArea fx:id="taAllMessage" editable="false" layoutX="20.0" layoutY="134.0" prefHeight="480.0" prefWidth="430.0" style="-fx-background-color: #fff;" />
             <JFXTextField fx:id="tfMyMessage" layoutX="20.0" layoutY="632.0" onKeyPressed="#buttonPressed" prefHeight="54.0" prefWidth="354.0" promptText="Type youre message here" style="-fx-background-color: #fff;" />
             <Pane prefHeight="54.0" prefWidth="470.0" style="-fx-background-color: #003B46;">
                <children>
@@ -24,6 +24,7 @@
                </children>
             </Pane>
             <JFXButton fx:id="btnSend" layoutX="383.0" layoutY="632.0" mnemonicParsing="false" onAction="#onClickSend" onKeyPressed="#buttonPressed" prefHeight="54.0" prefWidth="70.0" style="-fx-background-color: #fff;" text="Send" />
+            <JFXTextField layoutX="20.0" layoutY="71.0" prefHeight="45.0" prefWidth="430.0" promptText="Search" stylesheets="@../res/field.css" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="anMessage" layoutX="230.0" prefHeight="700.0" prefWidth="470.0" style="-fx-background-color: #07575B;">
